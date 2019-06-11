@@ -1,7 +1,7 @@
 ## Table of contents
 * [Synopsis](#Synopsis)
-* [Techonologies](#Technologies)
-* [Future] (#Future)
+* [Technologies](#Technologies)
+
 
 
 ## Synopsis
@@ -13,9 +13,4 @@ Project was built using the following:
 * Bootstrap for CSS
 * jQuery for JS
 * git for source control
-	
-## Future ideas
-Future pages I will be adding:
-* Projects page
-* A page dedicated to my travels
-* Possible certification page
+
