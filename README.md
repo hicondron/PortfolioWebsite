@@ -1,7 +1,7 @@
 ## Table of contents
 * [Synopsis](#Synopsis)
 * [Techonologies](#Technologies)
-* [Future Ideas] (#Future Ideas)
+* [Future] (#Future)
 
 
 ## Synopsis
