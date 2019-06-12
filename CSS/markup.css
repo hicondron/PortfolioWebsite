@@ -1,181 +1,174 @@
 body {
-    color: #333333;
-    letter-spacing: 1px;
+  color: #333333;
+  letter-spacing: 1px;
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 3;
-    background-color: rgba(0, 0, 0, 0.4)
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.4);
 }
-.slides-navigation .prev, 
+.slides-navigation .prev,
 .slides-navigation .next {
-    width: 47px;
-    height: 47px;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+  width: 47px;
+  height: 47px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .slides-navigation a.prev {
-    left: 20px;
-    background-image: url(/Users/hicondron/Downloads/icons8-back-64.png);
-
+  left: 20px;
+  background-image: url(/Users/hicondron/Downloads/icons8-back-64.png);
 }
 
 .slides-navigation a.next {
-    right: 20px;
-    background-image: url(/Users/hicondron/Downloads/icons8-next-page-64.png);
-
+  right: 20px;
+  background-image: url(/Users/hicondron/Downloads/icons8-next-page-64.png);
 }
 
 .titleMessage {
-    position: absolute;
-    WIDTH: 100%;
-    height: 250px;
-    z-index: 5;
-    text-align: center;
-    margin-top: -250px;
+  position: absolute;
+  width: 100%;
+  height: 250px;
+  z-index: 5;
+  text-align: center;
+  margin-top: -250px;
 }
 
-.titleMessage  .heading .main{
-    color: #ffffff;
-    font-size: 48px;
-    text-shadow: 0px, 2px, 5px, rgba(0, 0, 0, 0.4);
-    font-weight: 100;
-    letter-spacing: 7px;
+.titleMessage .heading .main {
+  color: #ffffff;
+  font-size: 48px;
+  text-shadow: 0px, 2px, 5px, rgba(0, 0, 0, 0.4);
+  font-weight: 100;
+  letter-spacing: 7px;
 }
 
-.titleMessage .heading .title{
-    color: #ffffff;
-    font-size: 32px;
-    text-shadow: 0px, 2px, 5px, rgba(0, 0, 0, 0.4);
-    font-weight: 100;
-    letter-spacing: 7px;
+.titleMessage .heading .title {
+  color: #ffffff;
+  font-size: 32px;
+  text-shadow: 0px, 2px, 5px, rgba(0, 0, 0, 0.4);
+  font-weight: 100;
+  letter-spacing: 7px;
 }
-
 
 .section {
-    padding: 100px 0;  
-    background-color: whitesmoke;
-    background: cover; 
+  padding: 100px 0;
+  background-color: #AAA0A0;
+  background: cover;
 }
 
 .aboutImage {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .headingText {
-    text-align: center;
+  text-align: center;
 }
 
 #skills {
-    text-align: center;
-    background-color: #5D7678;
-    color: whitesmoke;
-    font-size: 32px;
-    padding: 20px, 20px;
-    font-weight: 5px;
-
+  text-align: center;
+  background-color: #5d7678;
+  color: whitesmoke;
+  font-size: 32px;
+  padding: 20px, 20px;
+  font-weight: 5px;
 }
-.skillsHeader{
-    font-size: 60px;
-    padding: 20px;
+.skillsHeader {
+  font-size: 60px;
+  padding: 20px;
 }
 
 .owl-theme {
-    padding: 30px;
+  padding: 30px;
 }
 
 .react {
-    padding-top: 60px
+  padding-top: 60px;
 }
 .jsLogo {
-    padding-top: 30px;
-    height: 75%;
-    width: 75%;
+  padding-top: 30px;
+  height: 75%;
+  width: 75%;
 }
 .cssLogo {
-    padding-top: 30px;
-    height: 50%;
-    width: 50%;
+  padding-top: 30px;
+  height: 50%;
+  width: 50%;
 }
 .htmlLogo {
-    padding-top: 30px;
-    height: 55%;
-    width: 55%;
+  padding-top: 30px;
+  height: 55%;
+  width: 55%;
 }
 .javaLogo {
-    padding-top: 30px;
-    height: 50%;
-    width: 60%;
+  padding-top: 30px;
+  height: 50%;
+  width: 60%;
 }
 .gitLogo {
-    height: 70%;
-    width: 70%;
-    padding-top: 40px;
+  height: 70%;
+  width: 70%;
+  padding-top: 40px;
 }
 .cPlusPlusLogo {
-    height: 60%;
-    width: 46%;
-    padding-top: 30px;
+  height: 60%;
+  width: 46%;
+  padding-top: 30px;
 }
 .angularLogo {
-    padding-bottom: 40px;
-    height: 75%;
-    width: 75%;
-    
+  padding-bottom: 40px;
+  height: 75%;
+  width: 75%;
 }
 .nodeLogo {
-    height: 60%;
-    width: 60%;
-    padding-top: 50px;
-} 
+  height: 60%;
+  width: 60%;
+  padding-top: 50px;
+}
 
 .mtaBadge {
-    padding: 20px;
+  padding: 20px;
 }
 
 .compTiaBadge {
-    padding: 20px;
+  padding: 20px;
 }
 
 .email {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 button {
-    display: inline-block;
-    border: 1px, solid, black;
-    border-radius: 4px;
-    padding: 1rem 2rem;
-    text-decoration: none;
-    background: #5D7678;
-    color: #ffffff;
-    font-family: sans-serif;
-    font-size: 1rem;
-    cursor: pointer;
-    text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+  display: inline-block;
+  border: 1px, solid, black;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  background: #5d7678;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 button:hover,
 button:focus {
-    background-color: whitesmoke;
-    color: #5D7678;
+  background-color: whitesmoke;
+  color: #5d7678;
 }
 
 button:focus {
-    outline: 1px solid #fff;
-    outline-offset: -4px;
+  outline: 1px solid #fff;
+  outline-offset: -4px;
 }
 
 button:active {
-    transform: scale(0.99);
+  transform: scale(0.99);
 }
 /*
 .contactButton {
@@ -192,14 +185,15 @@ button:active {
     background-color: #5D7678;
     color: whitesmoke;
 }
- */ 
+ */
 
 .contactSection {
-    background-color: whitesmoke;
-    color: #5D7678;
-    background: cover;
-    text-align: center;
-} 
+  background-color: whitesmoke;
+  color: #5d7678;
+  background: cover;
+  text-align: center;
+}
 
-
-
+.filter a {
+    color: 
+}
