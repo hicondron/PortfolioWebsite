@@ -54,7 +54,7 @@ body {
 
 .section {
   padding: 100px 0;
-  background-color: #95969e;
+  background-color: #dfe1df;
   background: cover;
 }
 
@@ -68,7 +68,7 @@ body {
 
 #skills {
   text-align: center;
-  background-color: #969E95;
+  background-color: #95969e;
   color: #f4f5f4;
   font-size: 32px;
   padding: 20px, 20px;
@@ -136,6 +136,39 @@ body {
 }
 .portfolioSection {
     background-color: #dfe1df;
+    background: cover;
+    padding: 100px 0;
+
+}
+
+.filter a {
+    color: #95969e;
+    border: 1px solid #95969e;
+    padding: 10px 18px;
+    display: block;
+}
+
+.filter li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.filter .current {
+    background-color: #9e959e;
+    border-color: #9e959e;
+    color: whitesmoke
+}
+
+.filter {
+    text-align: center;
+    width: 100%;
+}
+
+.portfolioSection .heading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
 
 }
 .email {
@@ -197,6 +230,3 @@ button:active {
   text-align: center;
 }
 
-.filter a {
-    color: 
-}
