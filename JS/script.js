@@ -7,8 +7,8 @@ $(document).ready(function() {
 
   var typed = new Typed(".typed", {
     strings: [
-      "Web Developer",
-      "Endeavoring Software Developer",
+      "Dreamer",
+      "Software Developer",
       "World Traveler",
       "Student"
     ],
@@ -31,4 +31,7 @@ $(document).ready(function() {
   $(".stop").on("click", function() {
     owl.trigger("stop.owl.autoplay");
   });
+  
+  $("[data-fancybox]").fancybox();
+
 });

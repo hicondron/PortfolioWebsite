@@ -7,7 +7,7 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: 3;
+  z-index: 4;
   background-color: rgba(0, 0, 0, 0.4);
 }
 .slides-navigation .prev,
@@ -59,11 +59,18 @@ body {
 }
 
 .aboutImage {
-  max-width: 100%;
+  max-width: 75%;
+  max-height: 50%
 }
 
 .headingText {
   text-align: center;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+#aboutMe {
+  font-size: 24px;
 }
 
 #skills {
@@ -75,7 +82,7 @@ body {
   font-weight: 5px;
 }
 .skillsHeader {
-  font-size: 60px;
+  font-size: 24px;
   padding: 20px;
 }
 
@@ -131,9 +138,22 @@ body {
   padding: 20px;
 }
 
-.compTiaBadge {
-  padding: 20px;
+.comptiaBadge {
+  height: 50%;
+  width: 50%;
+  padding-top: 20px;
 }
+
+.foundationsBadge {
+  height: 90%;
+  width: 90%;
+  padding: 40px;
+}
+
+.owl-carousel {
+  padding-top: 50px;
+}
+
 .portfolioSection {
     background-color: #dfe1df;
     background: cover;
@@ -224,7 +244,7 @@ button:active {
  */
 
 .contactSection {
-  background-color: #95969e;
+  background-color: #dfe1df;
   color: #5d7678;
   background: cover;
   text-align: center;
