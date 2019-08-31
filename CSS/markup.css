@@ -90,9 +90,6 @@ body {
   padding: 30px;
 }
 
-.react {
-  padding-top: 60px;
-}
 .jsLogo {
   padding-top: 30px;
   height: 75%;
@@ -108,14 +105,15 @@ body {
   height: 55%;
   width: 55%;
 }
-.javaLogo {
+.pythonLogo {
   padding-top: 30px;
-  height: 50%;
-  width: 60%;
+  padding-right: 30px;
+  height: 150%;
+  width: 150%;
 }
 .gitLogo {
-  height: 70%;
-  width: 70%;
+  height: 50%;
+  width: 50%;
   padding-top: 40px;
 }
 .cPlusPlusLogo {
@@ -244,7 +242,7 @@ button:active {
  */
 
 .contactSection {
-  background-color: #dfe1df;
+  background-color: #95969e;
   color: #5d7678;
   background: cover;
   text-align: center;
