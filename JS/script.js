@@ -34,4 +34,10 @@ $(document).ready(function() {
   
   $("[data-fancybox]").fancybox();
 
+  $(function() {
+    $('.chart').easyPieChart({
+        //your options goes here
+    });
+});
+
 });
