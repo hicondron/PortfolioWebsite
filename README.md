@@ -14,3 +14,5 @@ Project was built using the following:
 * jQuery for JS
 * git for source control
 
+permalink: /index.html
+
