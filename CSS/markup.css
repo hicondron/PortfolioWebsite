@@ -10,22 +10,7 @@ body {
   z-index: 7;
   background-color: rgba(0, 0, 0, 0.6);
 }
-.slides-navigation .prev,
-.slides-navigation .next {
-  width: 47px;
-  height: 47px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.slides-navigation a.prev {
-  left: 20px;
-  background-image: url(/Users/hicondron/Downloads/icons8-back-64.png);
-}
 
-.slides-navigation a.next {
-  right: 20px;
-  background-image: url(/Users/hicondron/Downloads/icons8-next-page-64.png);
-}
 
 .titleMessage {
   position: absolute;
@@ -59,8 +44,8 @@ body {
 }
 
 .aboutImage {
-  max-width: 80%;
-  max-height: 80%
+  max-width: 100%;
+  max-height: 100%
 }
 
 .headingText {
@@ -214,7 +199,7 @@ button {
 
 button:hover,
 button:focus {
-  background-color: #95969e
+  background-color: #95969e;
   color: #5d7678;
 }
 

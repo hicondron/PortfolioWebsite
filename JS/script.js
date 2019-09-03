@@ -12,7 +12,7 @@ $(document).ready(function() {
       "World Traveler",
       "Student"
     ],
-    typeSpeed: 90,
+    typeSpeed: 100,
     loop: true,
     startDelay: 100,
     showCursor: false
