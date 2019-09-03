@@ -1,154 +1,151 @@
 body {
-  color: #333333;
-  letter-spacing: 1px;
+	font-size: 14px;
+    color: #3d433d
+    background-color: #fff;
+    letter-spacing: 1px;
 }
 
 .overlay {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: 7;
-  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
+.slides-navigation {
+	z-index: 6;
+}
+
+
+.slides-navigation .prev,
+.slides-navigation .next {
+	width: 47px;
+	height: 47px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev {
+	left: 20px;
+	background-image: url(/Users/hicondron/PortfolioWebsite/images/prev.png);
+}
+
+.slides-navigation a.next {
+	right: 20px;
+	background-image: url(/Users/hicondron/PortfolioWebsite/images/next.png);
+}
 
 .titleMessage {
   position: absolute;
   width: 100%;
   height: 250px;
-  z-index: 2;
+  top: 50%;
+  z-index: 5;
   text-align: center;
-  margin-top: -250px;
+  margin-top: -100px;
+}
+
+.titleMessage .heading p {
+	color: #fff;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 100;
+    letter-spacing: 7px;
 }
 
 .titleMessage .heading .main {
-  color: #f4f5f4;
-  font-size: 48px;
-  text-shadow: 0px, 2px, 5px, rgba(0, 0, 0, 0.4);
-  font-weight: 400;
-  letter-spacing: 7px;
+	font-size: 50px;
 }
 
-.titleMessage .heading .title {
-  color: #f4f5f4;
-  font-size: 32px;
-  text-shadow: 0px, 2px, 5px, rgba(0, 0, 0, 0.4);
-  font-weight: 400;
-  letter-spacing: 7px;
+.titleMessage .heading .sub {
+	font-size: 23px;
+}
+
+
+#navigation {
+	background-color: #c0a9ab;
+    padding: 20px 10px;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li {
+	padding: 0 10px;
+}
+
+#navigation li a {
+	color: #f4f5f4;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+	color: #f4f5f4;
+}
+
+.navbar-toggler-icon {
+	background: url(/Users/hicondron/PortfolioWebsite/images/menu.png);
+	background-size: 100%;
+}
+
+.fixedNav #navigation {
+	position: fixed;
+	top: 0;
 }
 
 .section {
-  padding: 100px 0;
-  background-color: #dfe1df;
-  background: cover;
+  background-color: #CCCBC6;
+}
+
+.aboutMe {
+  padding: 75px 0;
 }
 
 .aboutImage {
   max-width: 100%;
-  max-height: 100%
 }
 
-.headingText {
-  text-align: center;
-  padding-bottom: 40px;
-  padding-top: 40px;
+.skillsSection,
+.contactSection {
+	background-color: #A9B7C0;
+	color: #f4f5f4;
 }
 
-#aboutMe {
-  font-size: 24px;
-}
-
-#skills {
-  text-align: center;
-  background-color: #95969e;
+.skills {
+	text-align: center;
+  margin-top: 50px;
   color: #f4f5f4;
-  padding: 20px, 20px;
-  font-weight: 5px;
+  padding: 60px 0;
 }
+
 .skillsHeader {
-  font-size: 24px;
-  padding: 20px;
+  margin-top: 75px;
 }
 
-.skillsBody {
-  font-size: 18px;
-}
-.owl-theme {
-  padding: 30px;
-}
-
-.jsLogo {
-  padding-top: 30px;
-  height: 75%;
-  width: 75%;
-}
-.cssLogo {
-  padding-top: 30px;
-  height: 50%;
-  width: 50%;
-}
-.htmlLogo {
-  padding-top: 30px;
-  height: 55%;
-  width: 55%;
-}
-.pythonLogo {
-  padding-top: 30px;
-  padding-right: 30px;
-  height: 150%;
-  width: 150%;
-}
-.gitLogo {
-  height: 50%;
-  width: 50%;
-  padding-top: 40px;
-}
-.cPlusPlusLogo {
-  height: 60%;
-  width: 46%;
-  padding-top: 30px;
-}
-.angularLogo {
-  padding-bottom: 40px;
-  height: 75%;
-  width: 75%;
-}
-.nodeLogo {
-  height: 60%;
-  width: 60%;
-  padding-top: 50px;
+.chart {
+	position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
 }
 
-.mtaBadge {
-  padding: 20px;
+.chart canvas {
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+.chart canvas {
+	position: absolute;
+    left: 0;
+    top: 0;
 }
 
-.comptiaBadge {
-  height: 50%;
-  width: 50%;
-  padding-top: 20px;
+.chart .percent:after {
+	content: '%';
 }
-
-.foundationsBadge {
-  height: 90%;
-  width: 90%;
-  padding: 40px;
-}
-
-.owl-carousel {
-  padding-top: 50px;
-}
-
-.portfolioSection {
-    background-color: #dfe1df;
-    background: cover;
-    padding: 100px 0;
-
-}
-
 .filter a {
-    color: #95969e;
-    border: 1px solid #95969e;
+    color: #000000;
+    border: 1px solid #000000;
     padding: 10px 18px;
     display: block;
 }
@@ -159,9 +156,9 @@ body {
 }
 
 .filter .current {
-    background-color: #9e959e;
-    border-color: #9e959e;
-    color: whitesmoke
+    background-color: #c0a9ab;
+    border-color: #000000;
+    color: #f4f5f4;
 }
 
 .filter {
@@ -169,15 +166,134 @@ body {
     width: 100%;
 }
 
-.portfolioSection .heading{
+.section .heading{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-bottom: 40px;
     width: 100%;
 
 }
+
+.items li {
+  display: inline-block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.itemsContainer {
+  width: 100%;
+}
+
 .email {
   margin-top: 50px;
+}
+items li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.itemsContainer {
+	width: 100%;
+}
+
+
+.items li img {
+	width: 100%;
+	-webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+
+.items .item {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.items .icons {
+	position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin: -20px auto 0 -47px;
+    text-align: center;
+    z-index: 3;
+}
+
+.items .icons i {
+	color: #fff;
+    font-size: 20px;
+    margin-top: 9px;
+}
+
+.items a {
+	width: 40px;
+    height: 40px;
+    background-color: #e74c3c;
+    position: relative;
+    display: inline-block;
+
+
+    -webkit-transition: all 0.2s linear, 0.2s;
+    -moz-transition: all 0.2s linear, 0.2s;
+    -o-transition: all 0.2s linear, 0.2s;
+    -ms-transition: all 0.2s linear, 0.2s;
+    -transition: all 0.2s linear, 0.2s;
+
+}
+
+.items .imageOverlay {
+	width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+
+    -webkit-transition: all 0.2s linear, 1s;
+    -moz-transition: all 0.2s linear, 1s;
+    -o-transition: all 0.2s linear, 1s;
+    -ms-transition: all 0.2s linear, 1s;
+    -transition: all 0.2s linear, 1s;
+}
+
+.items .item:hover .imageOverlay {
+	opacity: 1;
+}
+
+.items .openButton {
+	float: left;
+	left: -200px;
+}
+
+.items .projectLink {
+	float: right;
+	right: -200px;
+}
+
+.items .item:hover .openButton {
+	left: 0px;
+}
+
+.items .item:hover .projectLink {
+	right: 0px;
+}
+
+.items .item:hover img {
+	-webkit-transform: scale(1.05, 1.05);
+    -moz-transform: scale(1.05, 1.05);
+    -o-transform: scale(1.05, 1.05);
+    -ms-transform: scale(1.05, 1.05);
+    -transform: scale(1.05, 1.05);
+}
+
+.items {
+	padding: 0;
 }
 
 button {
@@ -186,7 +302,7 @@ button {
   border-radius: 4px;
   padding: 1rem 2rem;
   text-decoration: none;
-  background: #95969e;
+  background: #c0a9ab;
   color: #f4f5f4;
   font-family: sans-serif;
   font-size: 1rem;
@@ -204,7 +320,7 @@ button:focus {
 }
 
 button:focus {
-  outline: 1px solid #fff;
+  outline: 1px solid #f4f5f4;
   outline-offset: -4px;
 }
 
@@ -229,8 +345,8 @@ button:active {
  */
 
 .contactSection {
-  background-color: #95969e;
-  color: #5d7678;
+  background-color: #A9B7C0;
+  color: #f4f5f4;
   background: cover;
   text-align: center;
 }
