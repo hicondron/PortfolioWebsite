@@ -1,8 +1,10 @@
+
+
 $(window).on("load", function() {
 
 	$(".loader .inner").fadeOut(500, function() {
 		$(".loader").fadeOut(750);
-	});
+  });
 
 })
 
@@ -50,8 +52,8 @@ $(document).ready(function() {
 			$('.chart').easyPieChart({
 		        easing: 'easeInOut',
 		        barColor: '#fff',
-		        trackColor: true,
-		        scaleColor: true,
+		        trackColor: false,
+		        scaleColor: false,
 		        lineWidth: 4,
 		        size: 152,
 		        onStep: function(from, to, percent) {
@@ -63,7 +65,7 @@ $(document).ready(function() {
     }
     
   });
-  
+
 	$("[data-fancybox]").fancybox();
 
 
@@ -82,8 +84,7 @@ $(document).ready(function() {
 		$(this).addClass("current");
 
 		var selector = $(this).attr("data-filter");
-
-		$(".items").isotope({
+    $(".items").isotope({
 			filter: selector,
 			animationOptions: {
 				duration: 1500,
@@ -91,7 +92,6 @@ $(document).ready(function() {
 				queue: false
 			}
 		});
-
 		return false;
 	});
 
