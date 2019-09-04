@@ -7,8 +7,6 @@ $(window).on("load", function() {
 })
 
 
-
-
 $(document).ready(function() {
 
 	$('#slides').superslides({
@@ -44,8 +42,6 @@ $(document).ready(function() {
 	    }
 	});
 
-
-	
 			$('.chart').easyPieChart({
             easing: 'easeInOut',
             barColor: '#fff',
@@ -58,7 +54,7 @@ $(document).ready(function() {
 		        }
 		       
 		    });
-
+    
 
 	$("[data-fancybox]").fancybox();
 
