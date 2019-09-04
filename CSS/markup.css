@@ -98,6 +98,7 @@ body {
 
 .aboutMe {
   padding: 75px 0;
+  text-align: center;
 }
 
 .aboutImage {
@@ -326,7 +327,7 @@ button:focus {
 button:active {
   transform: scale(0.99);
 }
-/*
+
 .contactButton {
     padding: 30px, 35px;
     display: inline-block;
@@ -341,9 +342,10 @@ button:active {
     background-color: #5D7678;
     color: whitesmoke;
 }
- */
+ 
 
 .contactSection {
+  padding: 200px;
   background-color: #A9B7C0;
   color: #f4f5f4;
   background: cover;
