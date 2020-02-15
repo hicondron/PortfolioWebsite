@@ -1,4 +1,4 @@
-# Porfolio Website
+# Portfolio Website
 
 <img width="810" alt="Screen Shot 2020-02-14 at 7 02 14 PM" src="https://user-images.githubusercontent.com/41925920/74577867-7b756500-4f5f-11ea-93f5-7a34a1871f6e.png">
 
