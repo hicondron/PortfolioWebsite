@@ -1,18 +1,17 @@
-## Table of contents
-* [Synopsis](#Synopsis)
-* [Technologies](#Technologies)
+# Porfolio Website
 
+<img width="810" alt="Screen Shot 2020-02-14 at 7 02 14 PM" src="https://user-images.githubusercontent.com/41925920/74577867-7b756500-4f5f-11ea-93f5-7a34a1871f6e.png">
 
+## Project
 
-## Synopsis
-This website was my first attempt at responsive HTML5.  The intention is to provide a central source for displaying my projects and resume. 
+This website is for my personal portfolio. The intention is to provide a central source for displaying my projects and resume. 
 	
 ## Technologies
-Project was built using the following:
+* VS Code
 * HTML5
 * Bootstrap for CSS
 * jQuery for JS
-* git for source control
+* Git for source control
 
-permalink: /index.html
+
 
